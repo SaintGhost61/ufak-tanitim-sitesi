@@ -1,0 +1,62 @@
+.a{
+    width:400px;
+    height: 800px;
+    background-color:rgb(15, 39,55);
+    margin-left: auto;
+    margin-right: auto;
+    transition: .3s;
+}
+.a:hover{
+    width:500px;
+    height: 900px;
+    transition: .3s;
+}
+h1{
+    text-shadow:10px 10px 30px yellow ;
+    font-size: 30px;
+    transition: .3s;
+}
+h1:hover{
+    font-size: 40px;
+    transition: .3s;
+}
+#baslik{
+    width:100%;
+    height:100px;
+    background-image: linear-gradient(90deg, rgb(16,198,204),blue,red);
+    line-height:100px;
+    text-align: center;
+}
+#resim1{
+    height: 200px;
+    width: 200px;
+    margin-left:28%;
+    box-shadow: 1px 1px 30px black;
+}
+#resim{
+    margin-top: 25px;
+    background-image: linear-gradient(90deg, rgb(16,198,204),#ff00f2);
+}
+#hakkimda{
+    width: 88%;
+    height:48%;
+    background-image: linear-gradient(90deg, #06abab, #ff00f2,red);
+    box-shadow: 1px 1px 30px #06abab;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+#resim2{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    transition: .3s;
+    box-shadow: 1px 1px 30px black;
+}
+#resim2:hover{
+    height: 120px;
+    width: 120px;
+    transition: .3s;
+}

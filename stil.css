@@ -1,0 +1,122 @@
+.nav{
+    position: relative;
+    left:70%;
+}
+#resim1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fb9191;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px #fb9191;
+    transition: .3s;
+}
+#resim1:hover{
+    width: 120px;
+    height: 120px;
+    transition: .3s;
+}
+ul li{
+    list-style: none;
+    font-size: 18px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    bottom:75px;
+    transition: .3s;
+}
+ul li:hover{
+    font-size: 20px;
+    transition: .3s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#bc2e9a;
+}
+a:visited{
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/background.png);
+    background-size: cover;
+}
+.tanıtım{
+    transform-style: preserve-3d;
+    transition: all .5s ease-out;
+}
+.tanıtım:hover{
+    transform: rotateY(180deg);
+}
+.front{
+    background-image: linear-gradient(45deg,rgba(94, 30, 124,0.8),rgba(72, 150, 232,0.8));
+    border-radius: 35px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 35%;
+    top:20px;
+    backface-visibility: hidden;
+}
+.back{
+    background-image: linear-gradient(45deg,rgba(94, 30, 124,0.8),rgba(72, 150, 232,0.8));
+    border-radius: 35px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 35%;
+    top:20px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.back p{
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+#divresim{
+    border:2px solid white;
+    position: relative;
+    left:25%;
+    top: 10px;
+    border-radius: 100%;
+    width: 200px;
+    height: 250px;
+    box-shadow:5px 5px 5px #4896e8;
+}
+.tanıtım h1,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4896e8 ;
+    text-align: center;
+}
+.kare{
+    position:relative;
+    top:100px;
+    right: 50px;
+   width: 225px;
+   height: 225px;
+   float: left;
+   border-radius: 35px;
+   background-image: linear-gradient(45deg,rgba(94, 30, 124,0.8),rgba(72, 150, 232,0.8));
+}
+#proje2{
+    margin-left:75px;
+}
+#proje3{
+    margin-left:75px;
+}
+.proje{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 10px;
+}
+.kare h1{
+    text-align: center;
+    color: white;
+}
+  

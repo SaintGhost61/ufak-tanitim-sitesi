@@ -1,0 +1,247 @@
+body{
+    background-image: url(img/arkaplan.png);
+    background-size: 100% 110%;
+    color: white;
+}
+.a{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height:700px ;
+    width:1000px;
+}
+#div1{
+    background-color: #0d3436;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 150px;
+}
+#içdiv1{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    width: 300px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #04fefe;
+}
+#içdiv2{
+    color: #04fefe;
+    position: absolute;
+    left: 825px;
+    top:30px;
+}
+#resim1{
+    height: 150px;
+    width: auto;
+    position: relative;
+    left: 370px;
+    bottom: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+#baslik1{
+    text-align: center;
+    line-height: 20px;
+    color:red;
+}
+#baslik2{
+    position: relative;
+    color: #04fefe;
+    left: 80px;
+    bottom: 20px;
+}
+#div2{
+    position: absolute;
+    width: 200px;
+    height: 543px;
+    background-color: #000e10;
+}
+#div3{
+   background-color: #001719;
+    position: absolute;
+    right: 150px;
+    width: 793px;
+    height: 543px;
+}
+#link1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#link1:visited{
+    color: white;
+}
+#list1{
+    list-style-type: none;
+}
+.kare{
+    border-radius: 100%;
+    height: 125px;
+    width: 110px;
+    float: left;
+    box-shadow: 10px 10px 10px black;
+    transition: .3s;
+}
+.kare:hover{
+    height: 130px;
+    width: 115px;
+    transition: .3s;
+}
+#kare2,#kare3,#kare5,#kare6,#kare8,#R{
+    margin-left: 200px;
+}
+#resim2{
+    border-radius: 100%;
+    height: 125px;
+    width: 110px;
+    transition: .3s;
+}
+#resim2:hover{
+    height: 130px;
+    width: 115px;
+    transition: .3s;
+}
+#ilksıra{
+      
+    position:absolute;
+    top: 25px;
+    left:25px;
+}
+#ikincisıra{
+    
+    position:absolute;
+    top: 200px;
+    left: 25px;
+}
+#üçüncüsıra{
+    
+    position:absolute;
+    top: 400px;
+    left: 25px;
+}
+#R{
+    position: absolute;
+    left: 425px;
+    top: 5px;
+}
+#resim3{
+    position: relative;
+    right: 110px;
+    border-radius: 100%;
+    height: 125px;
+    width: 110px;
+    transition: .3s;
+}
+
+#Perl{
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+
+.resim{
+    position: absolute;
+    top: 20px;
+    width:125px;
+    height: 150px;
+    float: left;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px;
+}
+.resim2{
+    position: absolute;
+    top: 200px;
+    width:125px;
+    height: 150px;
+    float: left;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px;
+}
+.resim3{
+    position: absolute;
+    top: 375px;
+    width:125px;
+    height: 150px;
+    float: left;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px;
+}
+#resim3-1{
+    left: 225px;
+}
+#resim3-2{
+    left: 450px;
+}
+#resim2-1{
+    left: 125px;
+}
+#resim2-2{
+    left: 325px;
+}
+#resim2-3{
+    left: 525px;
+}
+#resim-1{
+    left: 225px;
+}
+#resim-2{
+    left: 450px;
+}
+#buton1{
+    position:relative ;
+    background-image:linear-gradient(45deg,#001719,#000e10);
+    border-color: #04fefe;
+    color: #04fefe;
+    text-decoration: none;
+    top: 60px;
+    left:125px;
+    width:300px;
+    height:50px;
+    box-shadow: 5px 5px 5px;
+}
+#buton2{
+    position:absolute;
+    background-image:linear-gradient(45deg,#001719,#000e10);
+    border-color: #04fefe;
+    color: #04fefe;
+    text-decoration: none;
+    top: 210px;
+    left: 180px;
+    width:300px;
+    height:50px;
+    box-shadow: 5px 5px 5px;
+}
+#mail1{
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+}
+#mail2{
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+}
+#phone1{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+}
+#num1{
+    position: absolute;
+    top: 330px;
+    left: 180px;
+    color: #04fefe;
+    border: 5px solid #00ffff ;
+    line-height: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 5px;
+}
